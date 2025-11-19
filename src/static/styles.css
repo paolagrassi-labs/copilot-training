@@ -164,6 +164,13 @@ footer {
   font-size: 15px;
 }
 
+/* Remove bullets da lista de participantes */
+.participants-list.no-bullets {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 .no-participants {
   color: #888;
   font-style: italic;
